@@ -1,0 +1,9 @@
+stroke 0
+for x in[0..16]
+    for y in[0..16]
+        color darken brown, random 0,25
+        moveTo x * 31.25,y * 31.25
+        square 32
+        if 4 > y + random 0,3
+            color darken green, random 0,25
+            square 32
